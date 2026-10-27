@@ -1,6 +1,6 @@
 # Enterprise Network Zero-Touch Provisioning (ZTP) & Configuration Vault Lab
 
-![Topology Diagram](docs/topology-diagram.jpg)
+![Topology Diagram](docs/topology-diagram.png)
 
 ## Overview
 An end-to-end enterprise networking and Linux systems integration lab built inside **EVE-NG** over **KVM**, combining **Cisco IOS-XE (IOL 17.12) / IOSv (15.9)** routers and switches with **Ubuntu Server 24.04 LTS** infrastructure nodes.
