@@ -1,0 +1,21 @@
+network:
+  version: 2
+  renderer: networkd
+  ethernets:
+    ens3:
+      dhcp4: false
+      dhcp6: false
+      addresses:
+        - 10.100.100.10/24
+      routes:
+        - to: default
+          via: 10.100.100.1
+          metric: 200
+      nameservers:
+        addresses:
+          - 1.1.1.1
+          - 8.8.8.8
+    ens4:
+      dhcp4: true
+      dhcp4-overrides:
+        route-metric: 50
